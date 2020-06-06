@@ -1,0 +1,402 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 3.5em;
+    font-style: normal;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 2em;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  font-family: arpona, serif;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.col1, .col2, .col3 {
+    flex-grow: 1;
+    transition: all 1s ease;
+}
+
+.col1 {
+    background-image: url(../images/dndbg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.col2 {
+    background-image: url(../images/newimage2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.col3 {
+    background-image: url(../images/techbg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.row {
+    min-width: 100%;
+    padding: -20px;
+    right: 0%;
+    left: 0%;
+}
+
+.col1:hover {
+    flex-grow: 2;
+    box-shadow: 0px 0px 5px #111;
+    z-index: 1;
+}
+
+
+.col2:hover {
+    flex-grow: 2;
+    box-shadow: 0px 0px 5px #111;
+    z-index: 1;
+}
+
+
+.col3:hover {
+    flex-grow: 2;
+    box-shadow: 0px 0px 2px #111;
+    z-index: 1;
+}
+
+
+.row:hover .col1:not(:hover){
+    flex-grow: 1;
+}
+
+.row:hover .col2:not(:hover) {
+    flex-grow: 1;
+}
+
+.row:hover .col3:not(:hover) {
+    flex-grow: 1;
+    
+}
+
+
+.overlay {
+    background-color: rgba(0,0,0,0.7); /* Black background with opacity */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.hba {
+    transition: all 1s ease;
+}
+
+.hba:hover {
+
+    background-color: rgba(0,0,0,0.2);
+}
+
+.h1 {
+    font-family: arpona, serif ;
+}
+
+.title-text {
+    font-family: arpona, serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5rem;
+    transition: all .5s ease; 
+}
+
+.title-text:hover {
+    text-decoration: none;
+}
+
+#tt1:hover {
+    color: #d98b6c;
+}
+
+#tt2:hover {
+    color: #ffc45e; 
+}
+
+#tt3:hover {
+    color: #6bffd0;
+}
+
+.overlay-p {
+    background-color: rgba(0,0,0,0.2); /* Black background with opacity */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.sm-h4{
+    font-weight: 100;
+    font-size: 1em;
+    font-family: arpona, serif;
+}
+
+.pnav {
+    position: fixed;
+    top: 0;
+    font-weight: 100;
+}
+
+.white-link {
+    color: #fff;
+    transition: all .5s ease;
+}
+
+.container-h {
+    position: relative;
+    width: 100%;
+}
+
+.image-h {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-h {
+    position: absolute;
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #111;
+}
+
+.container-h:hover .overlay-h {
+    opacity: 0.7;
+}
+
+.text-h {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.wl {
+    font-weight: 400;
+    color:#fff;
+    text-decoration: none;
+}
+
+.wl:hover {
+    color: #fff;
+}
+
+ul {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.fbold {
+    font-family: arpona, serif;
+    font-weight: 400;
+}
+
+li {
+    font-weight: 100;
+}
+
+.weight-100 {
+    font-weight: 100;
+}
+
+.card {
+    box-shadow: 2px 2px 8px rgba(0,0,0,.1);
+}
+
+#banner {
+    height: 250px;
+    background-image: url(../images/tech.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.whitebox {
+    box-shadow: 2px 2px 8px rgba(0,0,0,.1);
+    background-color: #fff;
+}
+
+.fadein-1 {
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s;
+}
+
+.fadein-2{
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+.fadein-3 {
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+    -o-animation: fadein 3s; /* Opera < 12.1 */
+    animation: fadein 3s;
+}
+
+.fadein-4 {
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -ms-animation: fadein 4s; /* Internet Explorer */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+    animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.br-50 {
+    width: 25px;
+    border-radius: 50%;
+}
+
+
+
+
+@media (min-width: @screen-sm-min) {
+    
+}

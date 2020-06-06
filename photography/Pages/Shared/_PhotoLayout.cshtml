@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/luq0pra.css">
+    <script src="https://kit.fontawesome.com/174548596b.js" crossorigin="anonymous"></script>
+</head>
+<body style="margin: 0px;background-image: url(images/bg.jpg);background-position: center;background-size: cover; ">
+    <header>
+        <nav class="pnav d-flex row" style="color: #fff;">
+            <div class="col ml-2">
+                <font>J. Adams // Photography</font>
+            </div>
+            <div class="col" style="text-align: center;">
+                <a href="/home/" class="white-link mx-2">Home</a>
+                <a href="/portfolio" class="white-link mx-2">Portfolio</a>
+                <a href="/contactme" class="white-link mx-2">Contact</a>
+            </div>
+            <div class="col mr-2" style="text-align: right;">
+                <a href="https://instagram.com/thejeffreyadams" class="white-link mr-2"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/thejeffreyadams" class="white-link mr-2"><i class="fab fa-twitter"></i></a>
+                <a href="https://facebook.com/jeffreylawrenceadams" class="white-link"><i class="fab fa-facebook"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="d-flex mw-100 mh-100" style="height: 100vh">
+        @RenderBody()
+    </div>
+
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    
+
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

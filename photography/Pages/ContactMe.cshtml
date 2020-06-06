@@ -1,0 +1,66 @@
+﻿@page
+@model photography.Pages.ContactMeModel
+@{
+    Layout = "_Layout";
+}
+
+
+<div class="d-flex w-100" id="banner">
+    <div class="overlay w-100">
+        <div class="row w-100">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <h3 class="font-weight-bold text-primary">Contact Me</h3>
+                <font class="weight-100 text-white">Reach Out. I'll Be Around.</font>
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-4">
+    <div class="container m-auto w-50">
+        <div class="container">
+            <div class="row">
+                <a href="https://instagram.com/thejeffreyadams" class="mr-3"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/thejeffreyadams" class="mr-3"><i class="fab fa-twitter"></i></a>
+                <a href="https://facebook.com/jeffreylawrenceadams" class="mr-3"><i class="fab fa-facebook"></i></a>
+                <a href="mailto:jadamswebdev@gmail.com" class="mr-3 text-dark"><i class="far fa-envelope"></i></a>
+                <a href="mailto:jadamswebdev@gmail.com" class="mr-3 text-dark"><i class="fa fa-mobile"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="h-10 mt-5"></div>
+
+    <div class="container m-auto w-50">
+        <div class="mb-5">
+            <h3 class="font-weight-bold">Email Form</h3>
+            <font class="weight-100">
+                As of now I'm fairly busy with my regular job and passion projects. However,
+                I am always down to hear from people and take requests and comments into
+                consideration. So feel free to reach out and I'll get back as soon as I can!
+            </font>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1" class="font-weight-bold">Email address</label>
+                <input type="email" class="form-control" id="formEmail" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1" class="font-weight-bold">What's this about?</label>
+                <select class="form-control" id="formSelect">
+                    <option>Photography</option>
+                    <option>Development</option>
+                    <option>Job Offer/Inquiry</option>
+                    <option>General Comment</option>
+                    <option>Other...</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1" class="font-weight-bold">Type Away...</label>
+                <textarea class="form-control" id="formTextArea" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
